@@ -46,6 +46,24 @@ Clash of Balls allows users to create and accept football prediction challenges 
 - Fhenix computes the points based on the predictions and reveals the winner on the Chiliz chain.
 - Rewards are automatically distributed based on the outcome.
 
+## Possible Predictions
+When creating a challenge, users can choose 5 + 1 predictions from the following 10 options:
+
+| **Prediction**                                   | **Points** |
+|--------------------------------------------------|------------|
+| Team A wins by 2 or more goals.                  | 3          |
+| Team B scores in the first half.                 | 2          |
+| Player X scores at least 1 goal.                 | 2          |
+| The match ends in a draw.                        | 3          |
+| Both teams score at least 1 goal.                | 1          |
+| Team A scores 3 or more goals.                   | 4          |
+| Team B concedes fewer than 2 goals.              | 2          |
+| Player Y receives a yellow card.                 | 2          |
+| The match ends with fewer than 3 total goals.    | 3          |
+| There are more than 10 corner kicks in the match.| 4          |
+
+These predictions allow users to engage with the game in a strategic way, choosing outcomes they believe are likely while balancing the potential points they can earn.
+
 ## Technology Stack
 
 - **Blockchain:** Chiliz
