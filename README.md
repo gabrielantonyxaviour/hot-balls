@@ -17,7 +17,7 @@ Clash of Balls allows users to create and accept football prediction challenges 
 
 ## How It Works
 
-1. **Challenge Creation:**
+### 1. Challenge Creation: 
 
 - Select an upcoming football fixture.
 - Choose 5 predictions from the provided list and 1 additional prediction as a tie-breaker.
@@ -26,13 +26,13 @@ Clash of Balls allows users to create and accept football prediction challenges 
 - Submit the encrypted challenge and bet amount on-chain via Warpcast using Farcaster Composer Actions.
 - Post the challenge as a cast on Warpcast.
 
-2. **Challenge Acceptance:**
+### 2. Challenge Acceptance: 
 
 - Any user can view the open challenges on Warpcast.
 - To accept a challenge, the user selects the same predictions and sends the required CHZ to confirm the game.
 - The user then replies to the challenge cast with a "challenge accepted" cast.
 
-3. **Betting and Rewards:**
+### 3. Betting & Rewards: 
 
 - Each player bets a certain amount of CHZ (e.g., 10 CHZ).
 - The winner receives 80% of the total pool (e.g., 16 CHZ), with the remaining 20% (e.g., 4 CHZ) used to cover game fees.
@@ -40,7 +40,7 @@ Clash of Balls allows users to create and accept football prediction challenges 
 - 5% discount if one player holds more Fan tokens of their team than the other.
 - 10% discount if one player holds more Fan tokens of both teams.
 
-4. **Game Result and Reward Distribution:**
+### 4. Game Result and Reward Distribution:
 
 - Chainlink Functions fetch the game results and post them on-chain.
 - Fhenix computes the points based on the predictions and reveals the winner on the Chiliz chain.
@@ -48,10 +48,12 @@ Clash of Balls allows users to create and accept football prediction challenges 
 
 ## Technology Stack
 
-- Blockchain: Chiliz
-- Encryption: Fully Homomorphic Encryption (FHE)
-- Decentralized Communication: Warpcast, Farcaster Composer Actions
-- Oracle: Chainlink Functions Decentralized Oracle
-- Cross-Chain Infrastructure: Hyperlane
-- Computation: Fhenix (for computing on encrypted states)
-- Result Publishing: Arbitrum (fetching results and publishing to Fhenix)
+- **Blockchain:** Chiliz
+- **Encrypted Computation** Fhenix | Fully Homomorphic Encryption (FHE)
+- **Social Platform:** Farcaster (Warpcast)
+- **Decentralized Oracle:** Chainlink Functions (Arbitrum)
+- **Cross-Chain Infrastructure:** Hyperlane
+
+## Try it out
+
+https://gabrielaxy.com
