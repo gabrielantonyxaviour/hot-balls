@@ -3,7 +3,7 @@
 pragma solidity ^0.8.10;
 
 
-contract ChilizContract{
+contract ClashOfBallsCore{
 
     // Stake fan tokens here and send the encrypted predictions to Fhenix testnet.
     function createChallenge(uint256 _amount, uint256 _duration, uint256 _reward, string memory _description) public returns (uint256){
