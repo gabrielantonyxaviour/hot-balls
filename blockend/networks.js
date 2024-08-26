@@ -15,22 +15,24 @@ const networks = {
     gasPrice: undefined,
     nonce: undefined,
     accounts,
-    verifyApiKey: "UNSET",
+    verifyApiKey: "VERIFY",
     chainId: 88882,
     confirmations: DEFAULT_VERIFICATION_BLOCK_CONFIRMATIONS,
     nativeCurrencySymbol: "CHZ",
     mailbox: "0x1EBa83975Bb26c3F13fb4ACEd748550A29F0BB1B",
+    test: "0xd819d9457F0272e1DAccf52d2DEed44079aeF25A",
   },
   fhenixTestnet: {
     url: "https://api.helium.fhenix.zone",
     gasPrice: undefined,
     nonce: undefined,
     accounts,
-    verifyApiKey: "UNSET",
+    verifyApiKey: "VERIFY",
     chainId: 8008135,
     confirmations: DEFAULT_VERIFICATION_BLOCK_CONFIRMATIONS,
     nativeCurrencySymbol: "tFHE",
     mailbox: "0x8723e1E9955BC0461a12ADD57DEa5Ab84B3aFdAc",
+    test: "0xCfA62ac3Cc7E9eBA17Fab9Bc92df6AC648A18338",
   },
   arbitrumSepolia: {
     url:
@@ -44,6 +46,7 @@ const networks = {
     confirmations: DEFAULT_VERIFICATION_BLOCK_CONFIRMATIONS,
     nativeCurrencySymbol: "ETH",
     mailbox: "0x598facE78a4302f11E3de0bee1894Da0b2Cb71F8",
+    test: "0x874F9914c3e5cA477cD858496a7078FAAAF92a8d",
   },
 };
 

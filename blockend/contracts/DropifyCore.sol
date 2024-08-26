@@ -54,14 +54,14 @@ modifier onlyMailbox() {
     return mailbox.quoteDispatch(destinationDomain, bytes32Recipient, bytes(messageBody));
 
 }
-event ReceivedMessage(uint32 origin, bytes32 sender, uint256 value, bytes data);
-function handle(
-    uint32 _origin,
+    event ReceivedMessage(uint32 origin, bytes32 sender, uint256 value, bytes data);
+    function handle(
+        uint32 _origin,
     bytes32 _sender,
     bytes calldata _data
-) external payable  {
-    emit ReceivedMessage(_origin, _sender, msg.value, _data);
-}
+    ) external payable  {
+        emit ReceivedMessage(_origin, _sender, msg.value, _data);
+    }
 
     function addressToBytes32(address _addr) internal pure returns (bytes32) {
         return bytes32(uint256(uint160(_addr)));

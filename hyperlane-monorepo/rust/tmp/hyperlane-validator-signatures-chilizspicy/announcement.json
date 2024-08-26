@@ -1,0 +1,14 @@
+{
+  "value": {
+    "validator": "0x0429a2da7884ca14e53142988d5845952fe4df6a",
+    "mailbox_address": "0x000000000000000000000000dc59057716677afe37755e8aa256c8d852d62f64",
+    "mailbox_domain": 88882,
+    "storage_location": "file://./tmp/hyperlane-validator-signatures-chilizspicy"
+  },
+  "signature": {
+    "r": "0x5c4be177bbf342c6b5920f55b853f5587c169cce868f2393999b25bc12785df4",
+    "s": "0x528275b10bad457e2d64ae2b1a75cfb5c537e9270ecbafa49634d0b566feab3d",
+    "v": 27
+  },
+  "serialized_signature": "0x5c4be177bbf342c6b5920f55b853f5587c169cce868f2393999b25bc12785df4528275b10bad457e2d64ae2b1a75cfb5c537e9270ecbafa49634d0b566feab3d1b"
+}

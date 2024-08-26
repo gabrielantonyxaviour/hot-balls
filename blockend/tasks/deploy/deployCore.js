@@ -43,7 +43,6 @@ task("deploy-core", "Deploys the DropifyCore contract")
     if (network.name === "localFunctionsTestnet") {
       return;
     }
-
     const verifyContract = taskArgs.verify;
     if (
       network.name !== "localFunctionsTestnet" &&
