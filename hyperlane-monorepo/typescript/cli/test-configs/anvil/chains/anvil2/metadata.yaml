@@ -1,7 +1,0 @@
----
-chainId: 31338
-domainId: 31338
-name: anvil2
-protocol: ethereum
-rpcUrls:
-  - http: http://127.0.0.1:8555
